@@ -1,0 +1,17 @@
+name: Warrior
+main: me.ikipper.warrior.Main
+version: 1.0
+
+commands:
+  hunter:
+    description: Gives Hunter Class!
+    usage: /hunter
+  dwarf:
+    description: Gived Dwarf Class!
+    usage: /dwarf
+  play:
+    description: Teleports them to the startup area!
+    usage: /play
+  classes:
+    description: Lists all available classes!
+    usage: /classes
