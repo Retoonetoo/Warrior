@@ -23,6 +23,7 @@ public class Main extends JavaPlugin implements Listener {
 		
 	@EventHandler 
 	public void death(PlayerDeathEvent e) { 
-	e.setDroppedExp(0); e.getDrops().clear(); 
+	e.setDroppedExp(0);
+	e.getDrops().clear(); 
 	}
 }
